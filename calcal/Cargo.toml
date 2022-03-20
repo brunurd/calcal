@@ -1,0 +1,15 @@
+[package]
+name = "calcal"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "calcal"
+path = "src/lib.rs"
+crate-type = ["lib", "staticlib"]
+
+[[bin]]
+name = "calcalcli"
+path = "src/main.rs"
+
+[dependencies]
